@@ -1,7 +1,7 @@
 def main():
-    y = "gcatcgcagagagtatacagtacg"
+    y = input()
     n = len(y)
-    x = "gcagagag"
+    x = input()
     m = len(x)
     bruteForce(x, m, y, n)
 

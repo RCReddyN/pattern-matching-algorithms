@@ -1,7 +1,7 @@
 def main():
-    y = "gcatcgcagagagtatacagtacg"
+    y = input()
     n = len(y)
-    x = "gcagagag"
+    x = input()
     m = len(x)
     morrisPratt(x,m,y,n)
 
@@ -30,5 +30,5 @@ def preMorrisPratt(x, m, mpNext):
         mpNext[i] = j
         i=i+1
         j=j+1
-
+    print(mpNext)
 main()

@@ -1,7 +1,7 @@
 def main():
-    y = "gcatcgcagagagtatacagtacg"
-    x = "gcagagag"
-    q=101
+    y = input()
+    x = input()
+    q=103
     d=256
     karprabin(x, y, d, q)
 
